@@ -21,17 +21,17 @@ If you requested counts for customer_id_1 with start and end timestamps of Mar 1
 // - 2022-03-01T05:00:00Z bucket -> 1
 
 
-###How to run the program:
+#How to run the program:
 
 cd simple_aggregator
 go build
 ./simple_aggregator events.csv
 
-###StdIN sample prompts:
+#StdIN sample prompts:
 Enter Customer Id: b4f9279a0196e40632e947dd1a88e857
 Enter Start time: 2021-03-01 01:48:11.451+00
 Enter End time: 2021-03-01 05:43:31.488+00
 
-###How to run the test:
+#How to run the test:
 cd simple_aggregator
 go test
