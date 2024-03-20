@@ -28,10 +28,12 @@ go build
 ./simple_aggregator events.csv
 
 **StdIN sample prompts:**
+
 Enter Customer Id: b4f9279a0196e40632e947dd1a88e857
 Enter Start time: 2021-03-01 01:48:11.451+00
 Enter End time: 2021-03-01 05:43:31.488+00
 
 **#How to run the test:**
+
 cd simple_aggregator
 go test
