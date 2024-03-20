@@ -1,4 +1,4 @@
-# simpleAggregator
+# Simple Aggregator
 
 Attached, find the file `events.csv`, which contains a log of events with the
 format customer\_id, event\_type, transaction\_id, timestamp.
